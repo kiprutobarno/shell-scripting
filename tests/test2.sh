@@ -10,8 +10,5 @@ if [ "$?" -eq "0" ]; then
 
 else
     # The grep found only 0-9, so it's an integer
-    # we can safely do a tests
-    if [ "$X" -eq "7" ]; then 
-        echo "You entered the magic number!"
-    fi
+    # we can safely do a testsShell Scripting: Expert Recipes for Linux, Bash, and more
 fi
